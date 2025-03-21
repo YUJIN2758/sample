@@ -6,6 +6,7 @@ public class Sample {
 		// TODO Auto-generated method stub
 
 		System.out.println( "hELLO GITHUB");
+		System.out.println("이건 두번째 수정이야");
 	}
 
 }
