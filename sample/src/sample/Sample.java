@@ -7,6 +7,7 @@ public class Sample {
 
 		System.out.println( "hELLO GITHUB");
 		System.out.println("이건 두번째 수정이야");
+		System.out.println("이건 세번째 수정");
 	}
 
 }
