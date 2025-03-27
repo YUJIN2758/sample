@@ -14,7 +14,7 @@ public class Ex06_7 {
 		System.out.println("main() : x= " + d.x);
 	}
 
-	static void change(Date2 d) { //참조형 매개변수
+	static void change(Date2 d) { //참조형 매개변수 객체 주소를 전달해줌
 		d.x=1000;
 		System.out.println("change(): x = " +d.x);
 	}
