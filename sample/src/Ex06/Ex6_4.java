@@ -6,7 +6,8 @@ public class Ex6_4 {
 		// TODO Auto-generated method stub
 
 		MyMath mm = new MyMath();
-		long result1 = mm.add(5L, 3L); //
+		long result1 = mm.add(5L, 3L); // 결과를 담을 값도 형이 일치해야한다
+		
 		long result2 = mm.substract(5L, 3L);
 		long result3 = mm.multiply(5L, 3L);
 		double reuslt4 = mm.divide(5L, 3L);
@@ -41,7 +42,7 @@ class MyMath{ // 작업을 끝내면 호출한 곳으로 돌아옴
 		return a> b? a: b;
 	}
 	long min (long a, long b) {
-		return a<b? a : b;
+		return a<b? a : b; //타입이 일치하거나 자동형변환이 가능한 상태여야 한다 char/byte,short는 자동형변환됨
 	}
 	long substract(long a, long b) {return a-b;}
 	long multiply(long a, long b) {return a*b;}
