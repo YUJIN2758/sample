@@ -1,16 +1,18 @@
 package Ex06;
 
+//iv 사용여부
+
 public class Ex06_9 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(MyMath2.add(200L, 100L));
-		MyMath2 math = new MyMath2();
+		System.out.println(MyMath2.add(200L, 100L)); //객체생성없이 호출이 가능
+		MyMath2 math = new MyMath2(); //객체생성
 		math.a =200L;
-		math.b =100L;
+		math.b =100L; //iv값 세팅
 		//math.add();
-		System.out.println(math.add());
+		System.out.println(math.add()); //인스턴스메서드 호출
 		
 	}
 
