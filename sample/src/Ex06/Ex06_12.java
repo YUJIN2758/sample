@@ -5,7 +5,7 @@ public class Ex06_12 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Car c = new Car ("white", "auto",4);
+		Car c = new Car ("white", "auto",4); //객체 초기화
 		System.out.println("색상은: "+ c.color + "기어종류: " + c.gearType +"문 " +c.door);
 	}
 
